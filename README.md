@@ -27,13 +27,6 @@ Add the necessary scripts and styles from a CDN.
 <section class="github-repo-cards" data-user="github" data-starred="true"></section>
 ````
 
-#### Notes
-By default, it will display 12 repositories, but you can override this via `data-count`, for example:
-````html
-<section class="github-repo-cards" data-user="github" data-starred="true"></section>
-````
-
-
 ## Parameters
 
 The cards are customizable. You can pass parameters to the section to make changes to the cards.
