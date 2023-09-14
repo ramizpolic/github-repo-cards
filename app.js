@@ -53,7 +53,7 @@ const fetchUserRepos = (user, githubRepoCard) => {
                 }
             })
     
-            if(popular.length < count) {
+            if(popular.length < maxCount) {
                 for(let i = 0; i <= 6 - popular.length; i++) {
                     popular.push(unpopular[i])
                 }
@@ -97,4 +97,5 @@ githubRepoCards.forEach(githubRepoCard => {
         fetchUserRepos(githubRepoCard.dataset.user, githubRepoCard)
 
     githubRepoCard.style.background = githubRepoCard.dataset.background ? githubRepoCard.dataset.background : '#0d1117'
+    githubRepoCard.style.color = githubRepoCard.dataset.background ? githubRepoCard.dataset.background : '#0d1117'
 })
