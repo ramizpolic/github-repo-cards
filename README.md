@@ -2,6 +2,9 @@
 
 Show customizable GitHub repository cards on your website in just a couple of HTML lines.
 
+[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/github-repository-cards)
+
+
 ![Cards](cards-screenshot-1.png)
 
 ## Usage
@@ -9,8 +12,8 @@ Show customizable GitHub repository cards on your website in just a couple of HT
 Add the necessary scripts and styles from a CDN.
 
 ````html
-<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.9/app.js" defer></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.9/style.css">
+<script src="https://cdn.jsdelivr.net/npm/github-repository-cards@latest/app.js" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-repository-cards@latest/style.css">
 ````
 
 #### Show user repos
