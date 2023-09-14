@@ -1,14 +1,14 @@
 {
   "name": "github-repo-cards",
-  "version": "1.0.9",
-  "description": "Your GitHub profile repos in some cards.",
+  "version": "0.0.1",
+  "description": "Show customizable GitHub repository cards",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedeperin/github-repo-cards.git"
+    "url": "git+https://github.com/ramizpolic/github-repo-cards.git"
   },
   "keywords": [
     "github",
@@ -16,10 +16,10 @@
     "github-repo-cards",
     "github-cards"
   ],
-  "author": "fedeperin",
+  "author": "ramizpolic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fedeperin/github-repo-cards/issues"
+    "url": "https://github.com/ramizpolic/github-repo-cards"
   },
-  "homepage": "https://github.com/fedeperin/github-repo-cards#readme"
+  "homepage": "https://github.com/ramizpolic/github-repo-cards#readme"
 }
