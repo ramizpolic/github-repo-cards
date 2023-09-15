@@ -4,8 +4,11 @@ Show customizable GitHub repository cards on your website in just a couple of HT
 
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/github-repository-cards)
 
+#### Dark mode
+![dark.png](dark.png)
 
-![Cards](cards-screenshot-1.png)
+#### Light mode
+![light.png](light.png)
 
 ## Usage
 
@@ -24,7 +27,7 @@ Add the necessary scripts and styles from a CDN.
 
 #### Show user starred repos
 ````html
-<section class="github-repo-cards" data-user="github" data-starred="true"></section>
+<section class="github-repo-cards" data-user="github" data-starred=true></section>
 ````
 
 ## Parameters
@@ -50,3 +53,4 @@ Pass `data-max-count` (default `12`) to specify the maximum number of repos to s
 ### data-background
 
 Pass `data-background` (default `#0d1117`) to configure the background of the container. The value can be any CSS-acceptable color value.
+You can also add custom CSS to your own project.

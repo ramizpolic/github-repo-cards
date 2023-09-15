@@ -1,6 +1,6 @@
 {
   "name": "github-repository-cards",
-  "version": "0.0.4 ",
+  "version": "0.0.5",
   "description": "Show customizable GitHub repository cards",
   "main": "app.js",
   "scripts": {
